@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> Project Documentation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style type="text/css"> 
+    	#link {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}
+</style>
+</head>
+<body>
+	<h2 style="text-align: center;font-weight: bold;">Recreation of Dr. John Snow's Map of London's 1854 Cholera Epidemic Using D3</h2>
+	<h4 style="text-align: right; padding-right: 20px"> <a href = "Visualization.html"> Back to Visualization</a> </h4>
+	<h3> &nbsp; Objective: </h3>
+	<p> &nbsp; Dr. John Snow made the first graphic to locate the origins of the Cholera outbreak in London in 1854. He had done a survey and utilized the survey data to create a map, which let him spot a pattern that no one else had seen before, and he was able to pinpoint the root of the outbreak.</p>
+    <p> &nbsp; The objective of this project is to recreate Dr. John Snow’s map in an interactive version using D3. So, that it helps people like John snow to conduct an investigation. </p>
+    <h3> &nbsp; My Approach: </h3>
+	<p> &nbsp; First, I made a list of the use cases that needs to be created. </p>
+	<p> &nbsp; Following that, I hand sketched a couple of visuals that would be appropriate for the use cases and then I attempted to use D3 to implement these.</p>
+	<p> &nbsp; I chose colors that are clearly distinct so that colorblind persons will be able to discern the graphics easily.</p>
+    <p> &nbsp; Following that, I attempted to arrange the graphics in such a way that the most important visuals are visible at the top of the page.</p>
+    <p> &nbsp; Post that, I have tried to enhance these visualizations by adding features like: </p>
+	<p> &nbsp; (i)   Zoom in and Zoom out to the street map </p>
+	<p> &nbsp; (ii)  Added tool tip for all the visuals. So, on hover we can find the related information in the tooltip.</p>
+	<p> &nbsp; (iii) Gave the legend on the top so, that it would be easy to understand the visuals.</p>
+	<p> &nbsp; The visuals that I brainstormed before starting the project are shown here.</p>
+	<img src="data/BrainStorm.jpeg" width="800" height="350">
+	<h3> &nbsp; Output: </h3>
+	<p> &nbsp; The developed visualizations, answered several questions related to Cholera outbreak.</p>
+	<p> &nbsp; For example, from the line graph, we can clearly identify the date which has highest number of deaths.</p>
+	<p> &nbsp; When we hover on that particular data point on the graph, we can locate all the deaths on the map prior to that particular day.</p>
+	<p> &nbsp; On the map, we can see the gender wise distribution of deaths.</p>
+	<img src="data/Map.jpeg" width = "800" height = "400">
+	<p> &nbsp; One more use case that I have developed is a bar graph that shows the total number and the percentage of deaths by gender. </p>
+	<img src="data/BarGraph.jpeg" width = "400" height = "400">
+	<p> &nbsp; The other use case is to show the distribution of deaths according to the age groups. To serve this, I have created a pie chart visualization that shows the total number of deaths and the percentage of deaths by age group.</p>
+	<img src="data/PieChart.jpeg" width = "400" height = "400">
+
+</body>
+</html>
